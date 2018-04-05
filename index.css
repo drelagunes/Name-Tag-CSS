@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(57, 57, 57);
+    font-family: "Hiragino Maru Gothic Pro";
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    line-height: 0px
+}
+
+h3 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 0px;
+}
+
+p {
+    text-align: center;
+}
+
+.hello {
+    font-size: 30px;
+}
+
+
+.flex-container {
+    display: flex;
+    background-color: rgb(236,34, 33);
+    flex-direction: column;
+    margin: 15% 35%;
+    border-radius: 25px;
+
+}
+
+.flex-container > div {
+    align-self: stretch;
+}
+
+
+
+#banner {
+    color: White;
+}
+
+#name {
+    background-color: white;
+    font-size: 75px;
+    line-height: 0px
+
+}
+
+#footer {
+    padding: 12px;
+}
+
